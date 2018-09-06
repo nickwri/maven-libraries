@@ -12,7 +12,7 @@ public class BaseHttpResponse {
     private boolean isOffline;
     private enumHTTPVerb httpMethod;
     private boolean isTimedOut;
-    private String apiVersion = constants.HTTP_HEADER_API_VERSION;  // change as required for each api call
+    private String apiVersion = constants.HTTP_HEADER_API_VERSION_VALUE;  // change as required for each api call
 
     protected enum enumHTTPVerb { GET, POST, PUT, DELETE}
 
